@@ -1,0 +1,67 @@
+body{
+	background-color: black ;
+}
+
+h1{
+	font-family: Arial;
+	text-align: center;
+}
+
+h3{
+	font-family: Arial;
+}
+
+h2{
+	color: white;
+	font-family: Arial;
+}
+/*========================================*/
+.header, .conteiner{
+	margin: 20px;
+	border: solid;
+	border-radius: 30px;
+	background-color: white;
+	padding: 20px;
+}
+
+.conteiner{
+	margin: auto;
+	width: 45%;
+}
+
+/*========================================*/
+
+.fields{
+	display: flex;/*alinha os elementos*/
+    flex-wrap: wrap;/*faz uma quebra de linha*/
+    justify-content: space-between;/*espaço entre os elementos*/
+}
+
+/*========================================*/
+
+.input-field{
+	margin: 20px;
+	border: solid;
+	padding: 20px;
+}
+
+.btn-field{
+	width: 100%;
+	margin: 20px;
+	border: solid;
+	padding:20px;
+}
+
+.output-field{
+	width: 100%;
+	margin: 20px;
+	border: solid;
+	padding:20px;
+}
+
+/*========================================*/
+
+button{
+	margin-left: 30px;
+	margin-right: 30px;	
+}
