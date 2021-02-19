@@ -7,29 +7,21 @@ h1{
 	text-align: center;
 }
 
-h3{
-	font-family: Arial;
+.alerta{
+	color: #fff;
 }
 
-h2{
-	color: white;
-	font-family: Arial;
-}
-/*========================================*/
+/*===================================================================================*/
 .header, .conteiner{
-	margin: 20px;
+	margin: auto;
+	width: 45%;
 	border: solid;
 	border-radius: 30px;
 	background-color: white;
 	padding: 20px;
 }
 
-.conteiner{
-	margin: auto;
-	width: 45%;
-}
-
-/*========================================*/
+/*===================================================================================*/
 
 .fields{
 	display: flex;/*alinha os elementos*/
@@ -61,7 +53,7 @@ h2{
 
 /*========================================*/
 
-button{
+.btn{
 	margin-left: 30px;
 	margin-right: 30px;	
 }

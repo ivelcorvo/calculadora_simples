@@ -15,13 +15,16 @@
 				$res = $_POST['n1'] * $_POST['n2'];
 				break;
 			case 'div':
-				$res = $_POST['n1'] / $_POST['n2'];
+				if($_POST['n2'] == 0){
+					echo'<p class="alerta"> Não é possível dividir por zero </p>';
+				}else
+					$res = $_POST['n1'] / $_POST['n2'];
 				break;
 			default:
-				echo'erro';
+				echo'Erro';
 		}
 	}else
-		echo"não há registro";
+		echo"Não há registro";
 ?>
 
 
@@ -67,7 +70,6 @@
 			</div>
 		</div>
 		<div class='footer'>
-			<h2> COMPILANDO</h2>
 		</div>	
 	</body>
 </html>
