@@ -7,53 +7,41 @@ h1{
 	text-align: center;
 }
 
-.alerta{
-	color: #fff;
-}
-
-/*===================================================================================*/
-.header, .conteiner{
-	margin: auto;
-	width: 45%;
+/*========================================*/
+header, .principal{
 	border: solid;
 	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	padding: 20px;
 	background-color: white;
+	
+}
+
+.conteiner{
+	width: 50%;
+	margin: auto
+}
+
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+/*========================================*/
+
+fieldset{
+	border: 2px solid #000000;
+}
+
+.field{ 
+	width: 100%;
+	margin: 20px;
+	border: 2px solid #000000;
 	padding: 20px;
 }
 
-/*===================================================================================*/
-
-.fields{
-	display: flex;/*alinha os elementos*/
-    flex-wrap: wrap;/*faz uma quebra de linha*/
-    justify-content: space-between;/*espaço entre os elementos*/
-}
-
-/*========================================*/
-
-.input-field{
-	margin: 20px;
-	border: solid;
-	padding: 20px;
-}
-
-.btn-field{
+.campo{
 	width: 100%;
-	margin: 20px;
-	border: solid;
-	padding:20px;
-}
-
-.output-field{
-	width: 100%;
-	margin: 20px;
-	border: solid;
-	padding:20px;
-}
-
-/*========================================*/
-
-.btn{
-	margin-left: 30px;
-	margin-right: 30px;	
+	height: 30px;
 }
